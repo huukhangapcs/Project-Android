@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:title="@string/reloadButton"
+android:id="@+id/reload"
+    app:showAsAction="never"/>
+<item android:id="@+id/zoomIn"
+    android:title="@string/zoomin"
+    app:showAsAction="always"
+    android:icon="@drawable/ic_baseline_zoom_in_24"/>
+    <item android:id="@+id/zoomOut"
+        android:title="@string/zoomout"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_zoom_out_24"/>
+</menu>
