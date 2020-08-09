@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MoneyConverter</string>
+    <string name="history">History</string>
+    <string name="save">Save</string>
 </resources>

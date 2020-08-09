@@ -6,22 +6,22 @@ public class Country implements Serializable {
     private int flag;
     private String name;
     private String detail;
-    private int exchangeRate;
-    private float exchangeResult = 0;
+    private double exchangeRate;
+    private double exchangeResult = 0;
 
-    public int getExchangeRate() {
+    public double getExchangeRate() {
         return exchangeRate;
     }
 
-    public void setExchangeRate(int exchangeRate) {
+    public void setExchangeRate(double exchangeRate) {
         this.exchangeRate = exchangeRate;
     }
 
-    public float getExchangeResult() {
+    public double getExchangeResult() {
         return exchangeResult;
     }
 
-    public void setExchangeResult(float exchangeResult) {
+    public void setExchangeResult(double exchangeResult) {
         this.exchangeResult = exchangeResult;
     }
 
@@ -50,7 +50,7 @@ public class Country implements Serializable {
     }
 
 
-    public Country(int flag, String name, String detail, int exchangeRate) {
+    public Country(int flag, String name, String detail, double exchangeRate) {
         this.flag = flag;
         this.name = name;
         this.detail = detail;
